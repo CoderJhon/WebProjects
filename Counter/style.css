@@ -1,0 +1,38 @@
+#counterCountainer{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: rgb(19, 153, 236);
+    border-radius: 3em;
+    border-color: black;
+    border-style: solid;
+    width: 300px;
+    padding: 50px;
+}
+
+#counterLabel{
+    display: block;
+    text-align: center;
+    font-size: 7em;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#btnContainer{
+    display: block;
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(146, 4, 197, 0.551);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backround-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgba(115, 4, 156, 0.551);;
+}
